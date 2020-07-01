@@ -3,7 +3,7 @@ kubectl apply -f logstash.yml
 kubectl apply -f deployment.yml
 (exec into the pod and hit curl http://localhost for generating logs)
 
-after that use hel for elasticsearch and kibana
+after that use helm for elasticsearch and kibana
 
 helm install elasticsearch elastic/elasticsarch --set replicas=1
 
